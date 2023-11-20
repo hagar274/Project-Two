@@ -1,0 +1,470 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 30px;
+}
+
+/* navbar */
+.navbar{
+    background-color: rgb(121, 55, 8);
+    color: white;
+    overflow: auto;
+}
+
+.navbar h1{
+    padding: 20px;
+    float: left;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul{
+    float: right;
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    padding: 40px;
+    text-align: center;
+    display: block;
+    transition: 2s all;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+}
+.navbar ul li a:hover{
+    background-color: beige;
+    color: brown;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: medium;
+    font-style: italic;
+}
+
+/* Home */
+.home{
+    background-image: url(images/home/IMG_20231114_011126.jpg);
+    background-size: cover;
+    background-position: center center; 
+    height: 600px;
+}
+.home .box{
+    color: azure;
+    text-align: center; 
+    padding-top: 150px;
+}
+.home .box h2{
+    font-size: 55px;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 10px;
+}
+.home .box h3{
+    font-size: 50px;
+    color: rgba(104, 90, 10, 0.363);
+    padding: 20px 0;
+}
+.home .box a{
+    text-decoration: none;
+}
+.home .box p{
+    padding: 40px;
+    font-size: medium;
+}
+/* .home .box .buy {
+    background-color: burlywood;
+    color: aliceblue;
+    padding: 12px;
+    border: 2px solid wheat;
+    border-radius: 15px 15px;
+    text-decoration: none;
+    transition: 2s all;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-style: unset;
+}
+.home .box .buy:hover{
+    background-color: chocolate;
+    color: goldenrod;
+    border: 2px double rgb(210, 165, 80);
+    border-radius: 30px;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+} */
+
+/* images */
+
+.images{
+height: 800px;
+/* background-color: darkred; */
+ padding: 100px;
+display: inline-flex;
+margin: -30px;
+}
+.images .img p{
+    padding: 25px 0;
+    margin-bottom: 40px;
+    width: 60%;
+    margin: 0 auto;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+.images .img img{
+    width: 100%;
+    float: left;
+    margin-right: 30px;
+    margin-left: 10px;
+    padding: 30px;
+}
+
+/* section two  */
+
+ #home{ 
+   padding: 10em 0 0;
+   height: 90vh;
+}
+#home .cbox{ 
+    color: goldenrod;
+    display: inline-block;
+    padding-top: 150px;
+    width: 50%;
+    min-height: 100%;
+    margin-right: 10em;
+    text-align: center;
+} 
+#home .cbox span{
+    color: brown;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 0 200px;
+    width: 100%;
+}
+#home .cbox h2{ 
+    font-size: 55px;
+    color: burlywood;
+    font-weight: bold;
+    padding: 30px;
+}
+#home .cbox h3{
+    font-size: 50px;
+    color: rgba(104, 90, 10, 0.363);
+    padding: 20px 0;
+}
+#home .cbox a{
+    text-decoration: none;
+}
+ #home .cbox p{ 
+    padding: 20px 0 ;
+    font-size: medium;
+    line-height: 30px;
+}
+#home .cbox .buy {
+    background-color: burlywood;
+    color: aliceblue;
+    padding: 12px;
+    border: 2px solid wheat;
+    border-radius: 15px 15px;
+    text-decoration: none;
+    transition: 2s all;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-style: unset;
+} 
+#home .cbox .buy:hover{
+    background-color: chocolate;
+    color: goldenrod;
+    border: 2px double rgb(210, 165, 80);
+    border-radius: 30px;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+} 
+#home #img{
+    display: inline-block;
+}
+#home #img img{
+    display: block;
+    margin: auto;
+    width: 750px;
+    height: 500px;
+} 
+
+/* about */
+
+.about{
+    height: 500px;
+    padding-top: 50px;
+}
+.about h2{
+    color: darkred;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.about span{
+    font-weight: lighter;
+    display: block;
+}
+.about .card{
+    height: 450px;
+    width: 500;
+    padding: 10px 150px;
+    display: inline-block; 
+    margin: -30px;
+    }
+.about h3{
+    color: rgb(226, 153, 43);
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+} 
+.about .card .img{ 
+    width: 10%;
+    float: left;
+    margin-right: 20px;
+    margin-left: 5px;
+    padding: 50px;
+}
+      .about p{ 
+      background-color: coral; 
+        font-size: x-large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        font-style: italic;
+    }
+    .about .Buy .buy {
+        background-color: burlywood;
+        color: aliceblue;
+        padding: 12px;
+        border: 2px solid wheat;
+        border-radius: 15px 15px;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 850px;
+        transition: 2s all;
+        font-size: larger;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: lighter;
+        font-style: unset;
+    }
+    .about .Buy .buy:hover{
+        background-color: chocolate;
+        color: goldenrod;
+        border: 2px double rgb(210, 165, 80);
+        border-radius: 30px;
+        font-size: xx-large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    /* Contact */
+
+    .contact{
+        padding: 30px;
+        height: 50px;
+    }
+    .contact h2{
+        font-size: 32px;
+        padding: 40px;
+        text-align: center;
+        color: coral;
+    }
+    .contact .input{
+        margin-bottom: 30px;
+    }
+    .contact .input label{
+        display: block;
+        font-size: xx-large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        font-style: italic;
+        margin-bottom: 5px;
+    }
+    .contact .input input{
+    height: 50px;
+    }
+    .contact .input input, .contact .input textarea{
+        width: 50%;
+        padding: 10px;
+        font-size: x-large;
+        font-style: oblique;
+        border: 2px solid goldenrod;
+        border-radius: 30px;
+    }
+    .contact .input input:focus, .contact .input textarea:focus{
+        border: 0;
+        outline: 5px solid brown;
+    }
+    .contact .input textarea{
+        height: 250px;
+    }
+ .send{
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+        background-color: chocolate;
+        color: coral;
+        border: 3px solid chocolate;
+        border-radius: 40px;
+        transition: 1s all;
+    }
+    .send:hover{
+        background-color: wheat;
+        color: chocolate;
+    }
+    .send li a{
+        text-decoration: none;
+        color: rgb(83, 4, 4);
+    }
+    /* Footer */
+
+    .footer{
+        background-image: url(images/IMG_20231114_012960.jpeg);
+        background-size: cover;
+        background-position: center center; 
+        background-repeat: no-repeat;
+        padding: 25px;
+        text-align: center;
+        background-color: rgb(121, 55, 8); 
+        color: aliceblue; 
+        font-size: 50%;
+        font-weight: bold;
+         margin-top: 150em;  
+        display: block;
+    }
+    .footer h1{
+        /* background-color: rgb(121, 55, 8); */
+        text-align: center;
+        font-size: 60px;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+     .footer .address{ 
+        /* background-color: rgb(121, 55, 8); */
+        text-align: left;
+        font-size: xx-large;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+    .footer .address h2{ 
+        /* background-color: rgb(121, 55, 8); */
+        font-size: xx-large;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: left;
+    }
+    .footer .address p{
+        /* background-color: rgb(121, 55, 8); */
+        font-size: 20px;
+        color: beige;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: lighter;
+        text-align: left;
+    }
+    .footer .phone h2{ 
+        /* background-color: rgb(121, 55, 8); */
+        font-size: xx-large;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: left;
+    }
+    .footer .phone p{
+        /* background-color: rgb(121, 55, 8); */
+        font-size: 20px;
+        color: beige;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: lighter;
+        text-align: left;
+    }
+    .footer .email h2{ 
+        /* background-color: rgb(121, 55, 8); */
+        font-size: xx-large;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: left;
+    }
+    .footer .email p{
+        /* background-color: rgb(121, 55, 8); */
+        font-size: 20px;
+        color: beige;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: lighter;
+        text-align: left;
+    }
+    .footer .social h2{ 
+        /* background-color: rgb(121, 55, 8); */
+        font-size: xx-large;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: center;
+        padding: 20px 0;
+        
+    }
+    .footer .social p a{ 
+        /* background-color: rgb(121, 55, 8); */
+        color: beige;
+        font-size: xx-large;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    .footer .foot{ 
+        /* background-color: rgb(121, 55, 8); */
+        color: whitesmoke;
+        font-size: large;
+        font-family: sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    }
+    /* Send */
+    
+    .title{
+        color: coral;
+        font-size: xx-large;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bolder;
+        font-style: initial;
+        text-align: center;
+    }
+
+/* Media Queries */
+
+@media (max-width: 600px){
+    .navbar{
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+    }
+    .contact{
+        padding: 0 4em;
+    }
+}
+
+@media (max-width: 900px){
+    .about .card{
+        display: block;
+        width: 90%;
+        min-height: 0;
+    }
+}
